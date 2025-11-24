@@ -375,41 +375,33 @@
       </div>
     </section>
 
-    <!-- MVP DO MÊS -->
+        <!-- MVP DO MÊS -->
     <section id="mvp">
       <h2>MVP do mês</h2>
       <p class="small">
-        MVP baseado nos dados de <strong>players.json</strong> e guardado em
-        <strong>mvp.json</strong>. Atualizado manualmente todos os meses.
+        MVP carregado a partir de <strong>mvp.json</strong> via JavaScript. Mais tarde
+        pode vir de uma API externa.
       </p>
       <br />
 
       <div class="two-column">
-        <!-- CARD PRINCIPAL DO MVP ATUAL -->
+        <!-- CARD PRINCIPAL DO MVP ATUAL (DINÂMICO) -->
         <article class="card">
-          <div class="card-title">MVP — Fevereiro 2025</div>
-          <div class="card-meta">Diogo Jota · Liverpool FC · Premier League</div>
-          <p class="small">
-            Janela analisada: <strong>últimos 4 jogos</strong><br />
-            Jogos: 4 · Golos: 4 · Assistências: 1 · Minutos: 310
+          <div id="mvp-title" class="card-title">MVP — (a carregar...)</div>
+          <div id="mvp-meta" class="card-meta">Jogador · Clube · Liga</div>
+          <p id="mvp-stats" class="small">
+            Estatísticas da janela selecionada...
           </p>
           <br />
-          <p class="small">
-            Motivo da escolha:<br />
-            Marcou em 3 jogos consecutivos, foi decisivo num clássico e aumentou
-            claramente o rendimento ofensivo da equipa. Forte impacto e consistência.
-          </p>
-          <br />
-          <p class="small">
-            Nota: estes dados vêm de <code>mvp.json</code>. Quando migrarmos para
-            JavaScript ou backend, isto será gerado automaticamente.
+          <p id="mvp-reason" class="small">
+            Motivo da escolha do MVP irá aparecer aqui quando os dados forem carregados.
           </p>
         </article>
 
-        <!-- COLUNA LATERAL COM HISTÓRICO -->
+        <!-- COLUNA LATERAL COM HISTÓRICO (continua manual por agora) -->
         <div>
           <p class="small">
-            Histórico recente dos MVPs:
+            Histórico recente dos MVPs (mantido manualmente por agora):
           </p>
           <br />
 
@@ -420,11 +412,8 @@
 
           <br />
           <p class="small">
-            Processo mensal atual:<br />
-            1) Adicionar o novo MVP em <code>mvp.json</code><br />
-            2) Atualizar o cartão acima para o mês atual<br />
-            3) Mover o mês anterior para esta lista<br />
-            4) Commit → publicação automática
+            No futuro, esta lista também pode ser gerada automaticamente a partir
+            de <code>mvp.json</code> ou de uma API.
           </p>
         </div>
       </div>
@@ -439,6 +428,6 @@
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
