@@ -1,3 +1,23 @@
+[
+  {
+    "month": "2025-01",
+    "label": "Janeiro 2025",
+    "player_id": "bruno-fernandes",
+    "club": "Manchester United",
+    "league": "Premier League",
+    "stats_window": "Últimos 5 jogos",
+    "stats": {
+      "matches": 5,
+      "goals": 3,
+      "assists": 4,
+      "minutes": 430
+    },
+    "reason":
+      "Participou diretamente em 7 golos em 5 jogos, sempre titular, decisivo em jogos grandes e consistência alta nas notas de desempenho."
+  }
+]
+
+
 {
   "month": "2025-02",
   "label": "Fevereiro 2025",
