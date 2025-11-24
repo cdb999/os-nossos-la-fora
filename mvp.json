@@ -1,18 +1,16 @@
-[
-  {
-    "month": "2025-01",
-    "label": "Janeiro 2025",
-    "player_id": "bruno-fernandes",
-    "club": "Manchester United",
-    "league": "Premier League",
-    "stats_window": "Últimos 5 jogos",
-    "stats": {
-      "matches": 5,
-      "goals": 3,
-      "assists": 4,
-      "minutes": 430
-    },
-    "reason":
-      "Participou diretamente em 7 golos em 5 jogos, sempre titular, decisivo em jogos grandes e consistência alta nas notas de desempenho."
-  }
-]
+{
+  "month": "2025-02",
+  "label": "Fevereiro 2025",
+  "player_id": "diogo-jota",
+  "club": "Liverpool FC",
+  "league": "Premier League",
+  "stats_window": "Últimos 4 jogos",
+  "stats": {
+    "matches": 4,
+    "goals": 4,
+    "assists": 1,
+    "minutes": 310
+  },
+  "reason":
+    "Marcou em 3 jogos seguidos, incluindo num clássico, e melhorou claramente o ataque da equipa quando esteve em campo."
+}
