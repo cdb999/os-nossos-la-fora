@@ -1,0 +1,179 @@
+[
+  {
+    "id": "bruno-fernandes",
+    "full_name": "Bruno Miguel Borges Fernandes",
+    "known_name": "Bruno Fernandes",
+    "dob": "1994-09-08",
+    "birth_city": "Maia",
+    "birth_country": "Portugal",
+    "nationality": "Portugal",
+    "position": "AM",
+    "preferred_foot": "right",
+
+    "current_club": {
+      "name": "Manchester United",
+      "country": "England",
+      "league": "Premier League",
+      "since": "2020-01-01",
+      "shirt_number": 8,
+      "stats": {
+        "season": "2024-2025",
+        "matches": 22,
+        "minutes": 1850,
+        "goals": 7,
+        "assists": 9
+      }
+    },
+
+    "career_totals": {
+      "matches": 520,
+      "goals": 162,
+      "assists": 129
+    },
+
+    "clubs_history": [
+      {
+        "club_name": "Manchester United",
+        "country": "England",
+        "league": "Premier League",
+        "from": "2020-01-01",
+        "to": null,
+        "matches": 220,
+        "goals": 74,
+        "assists": 66
+      },
+      {
+        "club_name": "Sporting CP",
+        "country": "Portugal",
+        "league": "Primeira Liga",
+        "from": "2017-07-01",
+        "to": "2020-01-01",
+        "matches": 138,
+        "goals": 63,
+        "assists": 51
+      },
+      {
+        "club_name": "Sampdoria",
+        "country": "Italy",
+        "league": "Serie A",
+        "from": "2016-07-01",
+        "to": "2017-06-30",
+        "matches": 35,
+        "goals": 5,
+        "assists": 4
+      }
+    ]
+  },
+
+  {
+    "id": "diogo-jota",
+    "full_name": "Diogo José Teixeira da Silva",
+    "known_name": "Diogo Jota",
+    "dob": "1996-12-04",
+    "birth_city": "Porto",
+    "birth_country": "Portugal",
+    "nationality": "Portugal",
+    "position": "FW",
+    "preferred_foot": "right",
+
+    "current_club": {
+      "name": "Liverpool FC",
+      "country": "England",
+      "league": "Premier League",
+      "since": "2020-09-19",
+      "shirt_number": 20,
+      "stats": {
+        "season": "2024-2025",
+        "matches": 18,
+        "minutes": 1020,
+        "goals": 6,
+        "assists": 2
+      }
+    },
+
+    "career_totals": {
+      "matches": 320,
+      "goals": 96,
+      "assists": 45
+    },
+
+    "clubs_history": [
+      {
+        "club_name": "Liverpool FC",
+        "country": "England",
+        "league": "Premier League",
+        "from": "2020-09-19",
+        "to": null,
+        "matches": 140,
+        "goals": 45,
+        "assists": 18
+      },
+      {
+        "club_name": "Wolverhampton Wanderers",
+        "country": "England",
+        "league": "Premier League",
+        "from": "2018-07-01",
+        "to": "2020-09-18",
+        "matches": 131,
+        "goals": 33,
+        "assists": 14
+      }
+    ]
+  },
+
+  {
+    "id": "ruben-dias",
+    "full_name": "Rúben dos Santos Gato Alves Dias",
+    "known_name": "Rúben Dias",
+    "dob": "1997-05-14",
+    "birth_city": "Amadora",
+    "birth_country": "Portugal",
+    "nationality": "Portugal",
+    "position": "CB",
+    "preferred_foot": "right",
+
+    "current_club": {
+      "name": "Manchester City",
+      "country": "England",
+      "league": "Premier League",
+      "since": "2020-09-29",
+      "shirt_number": 3,
+      "stats": {
+        "season": "2024-2025",
+        "matches": 21,
+        "minutes": 1890,
+        "goals": 1,
+        "assists": 0
+      }
+    },
+
+    "career_totals": {
+      "matches": 300,
+      "goals": 13,
+      "assists": 6
+    },
+
+    "clubs_history": [
+      {
+        "club_name": "Manchester City",
+        "country": "England",
+        "league": "Premier League",
+        "from": "2020-09-29",
+        "to": null,
+        "matches": 160,
+        "goals": 7,
+        "assists": 4
+      },
+      {
+        "club_name": "SL Benfica",
+        "country": "Portugal",
+        "league": "Primeira Liga",
+        "from": "2017-07-01",
+        "to": "2020-09-29",
+        "matches": 137,
+        "goals": 6,
+        "assists": 2
+      }
+    ]
+  }
+]
