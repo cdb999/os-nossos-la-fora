@@ -1,0 +1,10 @@
+{
+  "name": "os-nossos-la-fora",
+  "version": "1.0.0",
+  "description": "Static site plus lightweight API for player registry.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
